@@ -9,6 +9,8 @@ setup(
     url = 'https://github.com/vimsucks/vtools',
     author = 'Vimsucks',
     author_email = 'dev@vimsucks.com',
+    zip_safe = False,
     packages = ["vtools"],
+    package_dir={'vtools': 'vtools'},
     install_requires = [],
 )
